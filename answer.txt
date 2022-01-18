@@ -1,0 +1,36 @@
+yazan jarrar
+
+
+problem a:
+the percentage change in cost after 10 iterations :
+	
+	for c1 is:0.26483917144562047
+	for c2 is:0.7669795594605943
+
+c2 is beter than c1 because the distacne between the points and their initial
+centers will be big at initialization the points will be in tense between the diffrent center points when 
+the center point changes alot more points will change wich center they belong to so that will 
+give higher porpablility of finding better center point so the improvment rate will be better
+
+
+****************************************************************************************************************
+problem b:
+the percentage change in cost after 10 iterations :
+	
+	for c1 is:-0.02966459207764418
+	for c2 is:-0.0018895865097607058
+
+c1 is better than c2 because in the cosine similarity the equation is devided over the distance of each point
+multiplyed by the other so when the point is far the similarity will be higher so the points will get 
+in stauration faster so it will not improve a lot in c1 because the similarity will be lower at first the points
+will be in tense  between the diffrent center points when the center point changes 
+alot more points will change wich center they belong to so that will give higher porpablility of finding 
+better center point so the improvment rate will be better
+
+
+****************************************************************************************************************
+
+Euclidean vs cosine:
+
+as we saw in prblem a and problem b it depends on initial centers positions but over all the cosine similarity 
+will get to sturation faster and Euclidean will give better percentage change in cost.
